@@ -1,6 +1,8 @@
 # no-crt
 
-Simple example of how to not link to the C runtime using MSVC
+Simple example of how to not link* to the C runtime using MSVC
+
+*Actually, it links only the necessary functions that you use.
 
 WIP - The console versions are not working.
 
